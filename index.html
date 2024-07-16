@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Niraj Kumar's Personal Webpage</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #FFA500; /* Orange */
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        nav {
+            background-color: #FFD700; /* Yellow */
+            display: flex;
+            justify-content: center;
+            padding: 1rem 0;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: #333;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #FFA500;
+        }
+        section {
+            padding: 4rem 2rem;
+            margin: 2rem 0;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        section h2 {
+            color: #FFA500;
+            margin-bottom: 1rem;
+        }
+        .portfolio-item, .work-item, .testimonial-item {
+            border: 1px solid #FFA500;
+            padding: 1.5rem;
+            margin: 1.5rem 0;
+            border-radius: 8px;
+            background-color: #fff5e6;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .portfolio-item a, .testimonial-item a {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background-color: #FFA500;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+        .portfolio-item a:hover, .testimonial-item a:hover {
+            background-color: #cc8400;
+        }
+        footer {
+            background-color: #FFA500; /* Orange */
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: relative;
+            width: 100%;
+            margin-top: 2rem;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Niraj Kumar</h1>
+    <p>Software Developer</p>
+</header>
+
+<nav>
+    <a href="#about" class="nav-link">About Me</a>
+    <a href="#portfolio" class="nav-link">Portfolio</a>
+    <a href="#work-history" class="nav-link">Work History</a>
+    <a href="#testimonials" class="nav-link">Testimonials</a>
+    <a href="#blog" class="nav-link">Blog</a>
+    <a href="#contact" class="nav-link">Contact</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hi, I'm Niraj Kumar, a software developer with a passion for creating innovative solutions and improving user experiences. I specialize in various programming languages and technologies, and I am always eager to learn and take on new challenges.</p>
+</section>
+
+<section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio-item">
+        <h3>Project One</h3>
+        <p>Description: A web application for managing tasks and deadlines. Built using React and Node.js.</p>
+        <p>Technologies: React, Node.js, MongoDB, Express</p>
+        <a href="https://github.com/niraj/project-one" target="_blank">View on GitHub</a>
+    </div>
+    <div class="portfolio-item">
+        <h3>Project Two</h3>
+        <p>Description: An e-commerce platform with a user-friendly interface and secure payment gateway. Developed with Django and React.</p>
+        <p>Technologies: Django, React, PostgreSQL, Stripe API</p>
+        <a href="https://github.com/niraj/project-two" target="_blank">View on GitHub</a>
+    </div>
+    <div class="portfolio-item">
+        <h3>Project Three</h3>
+        <p>Description: A mobile app for tracking fitness activities and goals. Created using Flutter.</p>
+        <p>Technologies: Flutter, Dart, Firebase</p>
+        <a href="https://github.com/niraj/project-three" target="_blank">View on GitHub</a>
+    </div>
+</section>
+
+<section id="work-history">
+    <h2>Work History</h2>
+    <div class="work-item">
+        <h3>Software Developer at Company One</h3>
+        <p>Duration: January 2020 - Present</p>
+        <p>Responsibilities: Developing and maintaining web applications, collaborating with cross-functional teams, and ensuring software quality through code reviews and testing.</p>
+    </div>
+    <div class="work-item">
+        <h3>Junior Developer at Company Two</h3>
+        <p>Duration: June 2017 - December 2019</p>
+        <p>Responsibilities: Assisting in the development of web applications, writing clean and efficient code, and troubleshooting and debugging issues.</p>
+    </div>
+</section>
+
+<section id="testimonials">
+    <h2>Testimonials</h2>
+    <div class="testimonial-item">
+        <p>"Niraj is an exceptional developer who consistently delivers high-quality work. His problem-solving skills and attention to detail are top-notch." - Jane Doe, Manager at Company One</p>
+    </div>
+    <div class="testimonial-item">
+        <p>"Working with Niraj has been a pleasure. He is highly knowledgeable and always willing to go the extra mile to ensure project success." - John Smith, Colleague at Company Two</p>
+    </div>
+    <div class="testimonial-item">
+        <p>"Niraj's expertise in software development is impressive. He is a great team player and always ready to tackle challenging tasks." - Emily Brown, Team Lead at Company One</p>
+    </div>
+</section>
+
+<section id="blog">
+    <h2>Blog</h2>
+    <p>Welcome to my blog! I'll be sharing my thoughts on software development, technology trends, and more. Check back soon for updates!</p>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:niraj@example.com">niraj@example.com</a></p>
+    <p>Phone: (123) 456-7890</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/niraj-kumar" target="_blank">linkedin.com/in/niraj-kumar</a></p>
+    <p>Address: 123 Main Street, Hometown, Country</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Niraj Kumar. All rights reserved.</p>
+</footer>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const links = document.querySelectorAll('.nav-link');
+
+        for (const link of links) {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                const targetSection = document.getElementById(targetId);
+
+                window.scrollTo({
+                    top: targetSection.offsetTop,
+                    behavior: 'smooth'
+                });
+            });
+        }
+    });
+</script>
+
+</body>
+</html>
